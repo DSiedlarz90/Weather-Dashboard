@@ -6,7 +6,6 @@
     font-size: 62.5%;
 }
 
-/* used to help determine layout */
 .border {
     border: 1px solid black;
 }
@@ -41,7 +40,9 @@
     
 }
 
-body { min-height: 100vh; }
+body { 
+    min-height: 100vh; 
+}
 
 .h1 {
     font-weight: bold;
@@ -164,6 +165,17 @@ span {
 #weather-container-header {
     margin-top: 1%;
     margin-bottom: 1%;
+}
+
+.card-body {
+    background-color:#00334d;
+    height: 20rem;
+    padding-left: 4%;
+    padding-top: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
